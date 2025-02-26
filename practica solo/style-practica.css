@@ -1,0 +1,80 @@
+body{
+	background-image: url("https://media.istockphoto.com/id/1189999060/vector/animal-paw-seamless-pattern-stock-illustration.jpg?s=612x612&w=0&k=20&c=8PcXcUSFigk0kyxYXfcQ-D6XcNUy16TQbKjNGM2i66U=");
+	margin: 20px 100px 50px 100px;
+}
+img{
+    border-radius: 50%;
+}
+.imagen-div{
+	display: flex;
+	justify-content: center;
+	
+}
+
+body{
+    font-family: console, sans-serif;
+}
+
+h1{
+    text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+
+.mascotas{
+    margin 10px;
+	padding: 20px;
+	background: linear-gradient(0deg, darkblue 0%, cyan 100%);
+	color: white;
+	border-radius: 30px;
+}
+
+.intro{
+    font-family: console, sans-serif;
+	color: purple;
+	text-shadow: 9px 1px 7px #f506f9;
+}
+
+.vendes{
+    margin-top: 50px;
+	padding: 20px;
+	background: linear-gradient(0deg, rgb(228, 195, 7) 0%, rgb(248, 234, 171) 100%);
+	color: rgb(255, 123, 0);
+	border-radius: 30px;
+}
+
+.adoptar{
+	color: red;
+}
+
+table{
+	width: 50%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+th, td {
+	border: 1px solid #ddd
+	padding: 10px;
+	text-align: left;
+}
+
+th{
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+
+tr:nth-child(even) {
+	background-color: yellow;
+}
+
+tr:nth-child(odd) {
+	background-color: green;
+}
+
+tr:hover{
+	background-color: purple;
+}
